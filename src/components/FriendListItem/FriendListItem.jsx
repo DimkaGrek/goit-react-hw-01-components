@@ -1,7 +1,6 @@
 import s from './FriendListItem.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
-  console.log(s.status);
   return (
     <li className={s.item}>
       <span className={isOnline ? s.statusOn : s.statusOff}></span>
